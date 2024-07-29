@@ -1,6 +1,6 @@
 public class TesteConta {
     public static void main(String[] args) {
-        Conta primeiraConta = new Conta();
+        Conta primeiraConta = new Conta(); //Instancia de um objeto
         primeiraConta.agencia = 1;
         primeiraConta.numero = 86975;
         primeiraConta.titular = "Julio Cesar Dias";
