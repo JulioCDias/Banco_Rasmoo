@@ -2,7 +2,7 @@ public class Conta {
     //Parametros de Ua classe
     int agencia;
     int numero;
-    String titular;
+    Cliente titular; //Usando Referencia ao declarar que titular é um cliente
     double saldo;
 
     void depositar(double valor) { // Método de Classe, Void especifica que nao ha retorno
